@@ -1,0 +1,57 @@
+
+h1{
+    color:rgb(255, 124, 124);
+    font-family: "Andale Mono", monospace, serif;
+    font-weight: "bold";
+    text-align:"center";
+
+    
+}
+
+h2{
+    color:cornflowerblue;
+    background-color:bisque;
+    font-family: "Andale Mono", monospace, serif;
+    font-weight: bold;
+    text-align:center;
+}
+
+a{
+    color: rgb(255, 153, 0);
+    font-family: "Andale Mono", monospace, serif;
+    font-weight: bold;
+}
+
+p{
+    color:rgb(118, 199, 118);
+    font-family: "Andale Mono", monospace, serif;
+    font-weight: bold;
+}
+.header{
+    display:flex;
+    background-color: #3d3d85;
+    justify-content:space-between ;
+}
+.site_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.footer{
+    display:flex;
+    justify-content:center;
+    padding: 3in;
+    
+}
+body{
+    background-color: #808080;
+}
